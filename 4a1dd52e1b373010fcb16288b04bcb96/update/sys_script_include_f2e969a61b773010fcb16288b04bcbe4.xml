@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_725194_testapp.testingSI</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testingSI</name>
+        <script><![CDATA[var testingSI = Class.create();
+testingSI.prototype = {
+    initialize: function() {
+    },
+//hi testing
+    type: 'testingSI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 11:35:40</sys_created_on>
+        <sys_id>f2e969a61b773010fcb16288b04bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testingSI</sys_name>
+        <sys_package display_value="TestApp" source="x_725194_testapp">4a1dd52e1b373010fcb16288b04bcb96</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TestApp">4a1dd52e1b373010fcb16288b04bcb96</sys_scope>
+        <sys_update_name>sys_script_include_f2e969a61b773010fcb16288b04bcbe4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 11:35:40</sys_updated_on>
+    </sys_script_include>
+</record_update>
